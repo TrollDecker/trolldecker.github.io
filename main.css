@@ -4,10 +4,10 @@ body {
   font-family: Courier New, Courier, monospace, serif;
 }
 
-li {
+li li > a {
   color: yellow;
 }
 
-a {
-  color: skyblue;
+li > a:hover {
+  color: red;
 }
