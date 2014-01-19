@@ -1,0 +1,13 @@
+body {
+  background-color: #010101;
+  color: limegreen;
+  font-family: Courier New, Courier, monospace, serif;
+}
+
+li {
+  color: yellow;
+}
+
+a {
+  color: skyblue;
+}
