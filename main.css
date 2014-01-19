@@ -1,13 +1,13 @@
 body {
   background-color: #010101;
   color: limegreen;
-  font-family: Courier New, Courier, monospace, serif;
+  font-family: "Courier New", Courier, monospace, serif;
 }
 
-li {
+li li > a {
   color: yellow;
 }
 
-a {
-  color: skyblue;
+li > a:hover {
+  color: red;
 }
