@@ -1,52 +1,122 @@
 body {
-  background-color: black;
-  color: skyblue;
-  font-family: Verdana, Arial, sans-serif;
+    background-color: black;
+    color: skyblue;
+    font-family: "Michroma", sans-serif;
 }
-
 #container {
-  width: 700px;
-  margin: 0 auto;
+    margin: 0em auto;
+    width: 700px;
 }
-
 #container div {
-  background-color: lightgrey;
-  color: black;
-  margin: 10px 0px;
-  padding: 5px;
-  box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
-  ms-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
-  moz-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
-  webkit-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
+    color: black;
+    margin: 10px 0px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
+    -o-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
+    -khtml-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
+    -ms-border-radius: 10px;
+    -ms-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
+    padding: 5px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px skyblue, -5px -5px 15px skyblue;
+    transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
 }
-
+#container div:hover {
+    box-shadow: 10px 5px 15px darkred, -10px -5px 15px darkred;
+    -ms-box-shadow: 10px 5px 15px darkred, -10px -5px 15px darkred;
+    -webkit-box-shadow: 10px 5px 15px darkred, -10px -5px 15px darkred;
+    -moz-box-shadow: 10px 5px 15px darkred, -10px -5px 15px darkred;
+    -o-box-shadow: 10px 5px 15px darkred, -10px -5px 15px darkred;
+    -khtml-box-shadow: 10px 5px 15px darkred, -10px -5px 15px darkred;
+    transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -khtml-transition: all 0.5s linear;
+}
+#footer {
+    font-size: 10px;
+}
 a {
-  background-color: skyblue;
-  color: black;
-  text-decoration: none;
+    background-color: skyblue;
+    color: black;
+    text-decoration: none;
+	transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	-khtml-transition: all 1s linear;
 }
-
-h1, h2 {
-  text-align: center;
+a:hover{
+	background-color: darkred;
+	color: white;
+	transition: all 1s linear;
+	-ms-transition: all 1s linear;
+	-webkit-transition: all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	-khtml-transition: all 1s linear;
 }
-
+a:active {
+	background-color: limegreen;
+	color: black;
+	transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-khtml-transition: all 0.2s linear;
+}
+h1,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Electrolize", sans-serif;
+    margin: 2px 0px;
+}
+h1,
+h2 {
+    text-align: right;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    margin-top: -8px;
+}
 h3 {
-  border-style: solid none;
-  border-width: 2px;
-  border-color: black;
+    border-color: black;
+    border-style: solid none;
+    border-width: 2px;
 }
-
 h4 {
-  border-style: solid none none none;
-  border-width: 1px;
-  border-color: black;
+    border-color: black;
+    border-style: solid none none none;
+    border-width: 1px;
 }
-
 h5 {
-  font-size: 14px;
-  font-weight: none;
+    font-size: 14px;
+    font-weight: none;
 }
-
 h5 a {
-  font-size: 10px;
+    font-size: 10px;
+}
+h6 {
+    border-color: black;
+    border-style: solid none;
+    border-width: 1px;
+    font-size: 12px;
 }
